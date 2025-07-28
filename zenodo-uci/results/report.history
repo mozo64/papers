@@ -1,0 +1,116 @@
+Univariate series: 83
+  Anchor: 39.75%
+  Lime:   100.00%
+  Shap:   100.00%
+  All 3:  39.75%
+
+Multivariate series: 20
+  Anchor: 100.00%
+  Lime:   95.00%
+  Shap:   100.00%
+  All 3:  95.00%
+
+Detailed series list (sorted alphabetically):
+multivariate_ArticularyWordRecognition: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_AtrialFibrillation: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_BasicMotions: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_Cricket: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_Epilepsy: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_ERing: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_EthanolConcentration: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_FaceDetection: Anchor:Yes, Lime:No, Shap:Yes
+multivariate_FingerMovements: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_HandMovementDirection: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_Handwriting: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_Heartbeat: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_Libras: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_LSST: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_NATOPS: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_PenDigits: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_RacketSports: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_SelfRegulationSCP1: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_SelfRegulationSCP2: Anchor:Yes, Lime:Yes, Shap:Yes
+multivariate_UWaveGestureLibrary: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_Adiac: Anchor:No, Lime:Yes, Shap:Yes
+univariate_Beef: Anchor:No, Lime:Yes, Shap:Yes
+univariate_BeetleFly: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_BirdChicken: Anchor:No, Lime:Yes, Shap:Yes
+univariate_BME: Anchor:No, Lime:Yes, Shap:Yes
+univariate_CBF: Anchor:No, Lime:Yes, Shap:Yes
+univariate_Chinatown: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_Coffee: Anchor:No, Lime:Yes, Shap:Yes
+univariate_Computers: Anchor:No, Lime:Yes, Shap:Yes
+univariate_CricketX: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_CricketY: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_CricketZ: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_Crop: Anchor:No, Lime:Yes, Shap:Yes
+univariate_DiatomSizeReduction: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_DistalPhalanxOutlineAgeGroup: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_DistalPhalanxOutlineCorrect: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_DistalPhalanxTW: Anchor:No, Lime:Yes, Shap:Yes
+univariate_DodgerLoopDay: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_DodgerLoopGame: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_DodgerLoopWeekend: Anchor:No, Lime:Yes, Shap:Yes
+univariate_Earthquakes: Anchor:No, Lime:Yes, Shap:Yes
+univariate_ECG200: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_ECG5000: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_ECGFiveDays: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_ElectricDevices: Anchor:No, Lime:Yes, Shap:Yes
+univariate_FaceFour: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_FiftyWords: Anchor:No, Lime:Yes, Shap:Yes
+univariate_FordA: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_FordB: Anchor:No, Lime:Yes, Shap:Yes
+univariate_FreezerRegularTrain: Anchor:No, Lime:Yes, Shap:Yes
+univariate_FreezerSmallTrain: Anchor:No, Lime:Yes, Shap:Yes
+univariate_Fungi: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_GunPoint: Anchor:No, Lime:Yes, Shap:Yes
+univariate_GunPointAgeSpan: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_GunPointMaleVersusFemale: Anchor:No, Lime:Yes, Shap:Yes
+univariate_GunPointOldVersusYoung: Anchor:No, Lime:Yes, Shap:Yes
+univariate_Herring: Anchor:No, Lime:Yes, Shap:Yes
+univariate_InsectWingbeatSound: Anchor:No, Lime:Yes, Shap:Yes
+univariate_ItalyPowerDemand: Anchor:No, Lime:Yes, Shap:Yes
+univariate_LargeKitchenAppliances: Anchor:No, Lime:Yes, Shap:Yes
+univariate_Lightning2: Anchor:No, Lime:Yes, Shap:Yes
+univariate_Lightning7: Anchor:No, Lime:Yes, Shap:Yes
+univariate_Meat: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_MedicalImages: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_MiddlePhalanxOutlineAgeGroup: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_MiddlePhalanxOutlineCorrect: Anchor:No, Lime:Yes, Shap:Yes
+univariate_MiddlePhalanxTW: Anchor:No, Lime:Yes, Shap:Yes
+univariate_MoteStrain: Anchor:No, Lime:Yes, Shap:Yes
+univariate_OliveOil: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_OSULeaf: Anchor:No, Lime:Yes, Shap:Yes
+univariate_PhalangesOutlinesCorrect: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_Plane: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_PowerCons: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_ProximalPhalanxOutlineAgeGroup: Anchor:No, Lime:Yes, Shap:Yes
+univariate_ProximalPhalanxOutlineCorrect: Anchor:No, Lime:Yes, Shap:Yes
+univariate_ProximalPhalanxTW: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_RefrigerationDevices: Anchor:No, Lime:Yes, Shap:Yes
+univariate_ScreenType: Anchor:No, Lime:Yes, Shap:Yes
+univariate_ShapeletSim: Anchor:No, Lime:Yes, Shap:Yes
+univariate_ShapesAll: Anchor:No, Lime:Yes, Shap:Yes
+univariate_SmallKitchenAppliances: Anchor:No, Lime:Yes, Shap:Yes
+univariate_SmoothSubspace: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_SonyAIBORobotSurface1: Anchor:No, Lime:Yes, Shap:Yes
+univariate_SonyAIBORobotSurface2: Anchor:No, Lime:Yes, Shap:Yes
+univariate_Strawberry: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_SwedishLeaf: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_Symbols: Anchor:No, Lime:Yes, Shap:Yes
+univariate_SyntheticControl: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_ToeSegmentation2: Anchor:No, Lime:Yes, Shap:Yes
+univariate_Trace: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_TwoLeadECG: Anchor:No, Lime:Yes, Shap:Yes
+univariate_TwoPatterns: Anchor:No, Lime:Yes, Shap:Yes
+univariate_UMD: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_UWaveGestureLibraryAll: Anchor:No, Lime:Yes, Shap:Yes
+univariate_UWaveGestureLibraryX: Anchor:No, Lime:Yes, Shap:Yes
+univariate_UWaveGestureLibraryY: Anchor:No, Lime:Yes, Shap:Yes
+univariate_UWaveGestureLibraryZ: Anchor:No, Lime:Yes, Shap:Yes
+univariate_Wafer: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_Wine: Anchor:No, Lime:Yes, Shap:Yes
+univariate_WordSynonyms: Anchor:No, Lime:Yes, Shap:Yes
+univariate_Worms: Anchor:No, Lime:Yes, Shap:Yes
+univariate_WormsTwoClass: Anchor:Yes, Lime:Yes, Shap:Yes
+univariate_Yoga: Anchor:No, Lime:Yes, Shap:Yes
