@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script compresses all "model_tf" directories found under the given parent directory.
+# This script compresses all "model_tf" directories and "model.h5" files found under the given parent directory.
 # The resulting ZIP archives are placed in the "models" subdirectory of the current working directory.
 #
 # Usage: ./compress_models.sh <parent_directory>
@@ -8,7 +8,7 @@
 # Each archive is named using the relative path (with "/" replaced by "_") from the parent directory.
 # Any leading dots in the filename are removed.
 #
-# Unzipping the archive will recreate the original "model_tf" directory.
+# Unzipping the archive will recreate the original "model_tf" directory and "model.h5" file.
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <parent_directory>"
@@ -33,19 +33,26 @@ find "$PARENT_DIR" -type d -name "model_tf" | while read -r model_dir; do
     # Example: if model_dir is "../ds/multivariate/SelfRegulationSCP1/model_tf"
     # then relative path becomes "multivariate/SelfRegulationSCP1/model_tf".
     rel_path="${model_dir#$PARENT_DIR/}"
-    
+
     # Create a flat filename by replacing "/" with "_" and appending ".zip".
     archive_file=$(echo "$rel_path" | tr '/' '_').zip
-    
+
     # Remove any leading dots in the archive filename.
     archive_file=$(echo "$archive_file" | sed 's/^\.+//')
-    
+
     archive_path="$OUTPUT_DIR/$archive_file"
-    
-    echo "Compressing $model_dir into $archive_path"
-    
+
+    echo "Compressing $model_dir and model.h5 into $archive_path"
+
     (
         cd "$(dirname "$model_dir")" || exit
-        zip -r "$archive_path" "$(basename "$model_dir")"
+
+        # Check if model.h5 exists and include it in the zip archive
+        if [ -f "model.h5" ]; then
+            zip -r "$archive_path" "$(basename "$model_dir")" "model.h5"
+        else
+            echo "  Warning: model.h5 not found alongside $(basename "$model_dir"). Zipping directory only."
+            zip -r "$archive_path" "$(basename "$model_dir")"
+        fi
     )
 done
