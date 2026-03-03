@@ -209,3 +209,13 @@ __marimo__/
 
 .idea/
 papers/.idea/
+
+zenodo-ucr/notebooks/zenodo_summary.ipynb
+zenodo-ucr/notebooks/UCR-explainers-shap-fix.ipynb
+zenodo-ucr/results/report.csv
+zenodo-ucr/results/report.history
+zenodo-ucr/results/uni-tuning-df.zip
+zenodo-ucr/results/Acc_and_F1.zip
+zenodo-ucr/results/DL-summary-models-accuracy.zip
+zenodo-ucr/results/filter_move.history
+zenodo-ucr/results/new_multivariate_tuningn-4-rbf-sbc-dtw-bkp.zip
